@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Main {
 
@@ -15,6 +16,14 @@ public class Main {
 		
 		while(lives >= 1) {
 			System.out.print("Guess: ");
+			Scanner in = new Scanner(System.in);
+			String input = in.next();
+			char c = input.charAt(0);
+			for(int i = 0; i < word.length(); i++) {
+				if(c == word.charAt(i)) {
+					
+				}
+			}
 		}
 		
 		
